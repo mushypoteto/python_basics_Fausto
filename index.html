@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A simple Python programming tutorial with an embedded online compiler.">
+  <title>Python Basics | Interactive Tutorial</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a class="logo" href="#home">PY<span>•</span>BASICS</a>
+      <nav>
+        <a href="#learn">Lessons</a>
+        <a href="#compiler">Compiler</a>
+        <a href="#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">BEGINNER TUTORIAL</p>
+          <h1>Learn Python.<br><span>Write. Run. Repeat.</span></h1>
+          <p class="hero-text">
+            A simple introduction to Python programming with short examples
+            and an online compiler you can use directly on this page.
+          </p>
+          <a class="button" href="#learn">Start Learning ↓</a>
+        </div>
+        <div class="code-card">
+          <div class="window-bar"><i></i><i></i><i></i><span>hello.py</span></div>
+          <pre><code><span class="purple">name</span> = <span class="green">"Harvey"</span>
+<span class="purple">print</span>(<span class="green">"Hello,"</span>, name)
+
+<span class="comment"># Your first Python program</span></code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="learn">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">THE BASICS</p>
+          <h2>Five things to learn first</h2>
+          <p>These concepts are enough to start writing simple Python programs.</p>
+        </div>
+
+        <div class="lesson-grid">
+          <article class="lesson">
+            <div class="number">01</div>
+            <h3>Variables</h3>
+            <p>Variables store information that your program can use later.</p>
+            <pre><code>name = "Alex"
+age = 20</code></pre>
+          </article>
+
+          <article class="lesson">
+            <div class="number">02</div>
+            <h3>Data Types</h3>
+            <p>Python has different types of values such as text, numbers, and true/false values.</p>
+            <pre><code>name = "Alex"   # string
+age = 20        # integer
+student = True  # boolean</code></pre>
+          </article>
+
+          <article class="lesson">
+            <div class="number">03</div>
+            <h3>Conditions</h3>
+            <p>An if statement lets your program make a decision.</p>
+            <pre><code>age = 20
+
+if age >= 18:
+    print("Adult")</code></pre>
+          </article>
+
+          <article class="lesson">
+            <div class="number">04</div>
+            <h3>Loops</h3>
+            <p>Loops repeat instructions without writing the same code many times.</p>
+            <pre><code>for number in range(5):
+    print(number)</code></pre>
+          </article>
+
+          <article class="lesson">
+            <div class="number">05</div>
+            <h3>Functions</h3>
+            <p>Functions group instructions so you can reuse them in your program.</p>
+            <pre><code>def greet(name):
+    print("Hello", name)
+
+greet("Alex")</code></pre>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="compiler-section" id="compiler">
+      <div class="container">
+        <div class="compiler-header">
+          <div>
+            <p class="eyebrow">TRY IT YOURSELF</p>
+            <h2>Python Online Compiler</h2>
+            <p>Change the code, click Run, and see the result instantly.</p>
+          </div>
+          <div class="badge">PYTHON 3</div>
+        </div>
+
+        <div class="compiler-frame">
+          <iframe
+            id="pythonCompiler"
+            title="Online Python Compiler"
+            src="https://onecompiler.com/embed/python"
+            frameborder="0"
+            loading="lazy">
+          </iframe>
+        </div>
+        <p class="compiler-note">
+          The compiler is provided by OneCompiler and runs inside this webpage.
+        </p>
+      </div>
+    </section>
+
+    <section class="challenge section" id="about">
+      <div class="container challenge-box">
+        <div>
+          <p class="eyebrow">MINI CHALLENGE</p>
+          <h2>Make your own greeting program</h2>
+          <p>Ask the user for their name and print a personalized greeting.</p>
+        </div>
+        <pre><code>name = input("What is your name? ")
+print("Hello,", name)</code></pre>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <p><strong>PY•BASICS</strong> — Simple Python Tutorial</p>
+      <p>Created for Web Development Activity</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
