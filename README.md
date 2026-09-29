@@ -1,34 +1,39 @@
-# PY•BASICS — Python Tutorial
+# CodeStart — Python Tutorial
 
-A simple static Python tutorial page created for a web development activity.
+## Main Header
+**Start Small. Code Big.**
 
-## Files
-- `index.html` — Main webpage
-- `style.css` — Website styling
-- `script.js` — Smooth scrolling
-- `README.md` — Project information
+## 15 Lessons
+1. What is Python?
+2. Print Output
+3. Variables
+4. Data Types
+5. User Input
+6. Operators
+7. If Statements
+8. If / Else
+9. Elif
+10. For Loops
+11. While Loops
+12. Lists
+13. Dictionaries
+14. Functions
+15. Mini Project: Calculator
 
 ## Online Compiler
 The page embeds OneCompiler's Python editor:
 https://onecompiler.com/embed/python
 
-OneCompiler provides an iframe embed for a specific programming language.
+## Netlify
+This is a static website. No npm, Node.js, database, or backend is required.
 
-## Netlify Deployment
-This is a static website, so no build command is required.
-
-### GitHub method
+GitHub deployment:
 1. Create a GitHub repository.
-2. Upload `index.html`, `style.css`, `script.js`, and `README.md`.
+2. Upload all four project files.
 3. Log in to Netlify.
-4. Select Add new project > Import an existing project.
-5. Choose GitHub and authorize Netlify.
-6. Select this repository.
-7. Leave the build command empty.
-8. Set the publish directory to the repository root (or leave the default for a simple static site).
-9. Select Deploy/Publish.
-
-After deployment, Netlify will provide a `.netlify.app` URL.
-
-### Manual method
-You can also deploy the project folder directly using Netlify's manual/drag-and-drop deployment.
+4. Choose Add new project > Import an existing project.
+5. Select GitHub and authorize Netlify.
+6. Select the repository.
+7. Leave Build command empty.
+8. Use the repository root as the publish directory.
+9. Deploy the site.

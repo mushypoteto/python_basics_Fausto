@@ -1,150 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="A simple Python programming tutorial with an embedded online compiler.">
-  <title>Python Basics | Interactive Tutorial</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CodeStart | Learn Python</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="topbar">
-    <div class="container nav">
-      <a class="logo" href="#home">PY<span>•</span>BASICS</a>
-      <nav>
-        <a href="#learn">Lessons</a>
-        <a href="#compiler">Compiler</a>
-        <a href="#about">About</a>
-      </nav>
-    </div>
-  </header>
+<header class="topbar">
+  <div class="container nav">
+    <a class="logo" href="#home">CODE<span>START</span></a>
+    <nav><a href="#lessons">Lessons</a><a href="#compiler">Compiler</a><a href="#challenge">Challenge</a></nav>
+  </div>
+</header>
 
-  <main id="home">
-    <section class="hero">
-      <div class="container hero-grid">
-        <div>
-          <p class="eyebrow">BEGINNER TUTORIAL</p>
-          <h1>Learn Python.<br><span>Write. Run. Repeat.</span></h1>
-          <p class="hero-text">
-            A simple introduction to Python programming with short examples
-            and an online compiler you can use directly on this page.
-          </p>
-          <a class="button" href="#learn">Start Learning ↓</a>
-        </div>
-        <div class="code-card">
-          <div class="window-bar"><i></i><i></i><i></i><span>hello.py</span></div>
-          <pre><code><span class="purple">name</span> = <span class="green">"Harvey"</span>
+<main id="home">
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <p class="eyebrow">PYTHON FOR BEGINNERS</p>
+      <h1>Start Small.<br><span>Code Big.</span></h1>
+      <p class="hero-text">Learn Python through 15 short lessons, practical examples, and an online compiler you can use directly on this page.</p>
+      <a class="button" href="#lessons">Start Learning ↓</a>
+    </div>
+    <div class="code-card">
+      <div class="window-bar"><i></i><i></i><i></i><span>hello.py</span></div>
+      <pre><code><span class="purple">name</span> = <span class="green">"Harvey"</span>
 <span class="purple">print</span>(<span class="green">"Hello,"</span>, name)
 
-<span class="comment"># Your first Python program</span></code></pre>
-        </div>
-      </div>
-    </section>
+<span class="comment"># Your Python journey starts here.</span></code></pre>
+    </div>
+  </div>
+</section>
 
-    <section class="section" id="learn">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">THE BASICS</p>
-          <h2>Five things to learn first</h2>
-          <p>These concepts are enough to start writing simple Python programs.</p>
-        </div>
+<section class="section" id="lessons">
+<div class="container">
+<div class="section-heading">
+<p class="eyebrow">15 QUICK LESSONS</p>
+<h2>Learn Python step by step.</h2>
+<p>Start with simple commands, then move toward programs that make decisions, repeat tasks, store data, and perform calculations.</p>
+</div>
+<div class="lesson-grid">
 
-        <div class="lesson-grid">
-          <article class="lesson">
-            <div class="number">01</div>
-            <h3>Variables</h3>
-            <p>Variables store information that your program can use later.</p>
-            <pre><code>name = "Alex"
-age = 20</code></pre>
-          </article>
+<article class="lesson"><div class="number">01</div><h3>What is Python?</h3><p>Python is a beginner-friendly language used for websites, automation, data, AI, and many other projects.</p><pre><code>print("Hello, Python!")</code></pre></article>
 
-          <article class="lesson">
-            <div class="number">02</div>
-            <h3>Data Types</h3>
-            <p>Python has different types of values such as text, numbers, and true/false values.</p>
-            <pre><code>name = "Alex"   # string
-age = 20        # integer
-student = True  # boolean</code></pre>
-          </article>
+<article class="lesson"><div class="number">02</div><h3>Print Output</h3><p>The print() function displays information on the screen.</p><pre><code>print("Welcome!")
+print(2026)</code></pre></article>
 
-          <article class="lesson">
-            <div class="number">03</div>
-            <h3>Conditions</h3>
-            <p>An if statement lets your program make a decision.</p>
-            <pre><code>age = 20
+<article class="lesson"><div class="number">03</div><h3>Variables</h3><p>Variables store values that your program can use later.</p><pre><code>name = "Alex"
+age = 20
+print(name)</code></pre></article>
 
+<article class="lesson"><div class="number">04</div><h3>Data Types</h3><p>Python uses strings, integers, floats, and booleans.</p><pre><code>name = "Alex"
+age = 20
+price = 99.50
+student = True</code></pre></article>
+
+<article class="lesson"><div class="number">05</div><h3>User Input</h3><p>The input() function lets a program ask the user for information.</p><pre><code>name = input("Your name: ")
+print("Hello", name)</code></pre></article>
+
+<article class="lesson"><div class="number">06</div><h3>Operators</h3><p>Operators perform calculations and compare values.</p><pre><code>a = 10
+b = 3
+print(a + b)
+print(a > b)</code></pre></article>
+
+<article class="lesson"><div class="number">07</div><h3>If Statements</h3><p>Use if when your program needs to check a condition.</p><pre><code>age = 20
 if age >= 18:
-    print("Adult")</code></pre>
-          </article>
+    print("Adult")</code></pre></article>
 
-          <article class="lesson">
-            <div class="number">04</div>
-            <h3>Loops</h3>
-            <p>Loops repeat instructions without writing the same code many times.</p>
-            <pre><code>for number in range(5):
-    print(number)</code></pre>
-          </article>
+<article class="lesson"><div class="number">08</div><h3>If / Else</h3><p>Use else when you need another action if the condition is false.</p><pre><code>age = 16
+if age >= 18:
+    print("Adult")
+else:
+    print("Minor")</code></pre></article>
 
-          <article class="lesson">
-            <div class="number">05</div>
-            <h3>Functions</h3>
-            <p>Functions group instructions so you can reuse them in your program.</p>
-            <pre><code>def greet(name):
+<article class="lesson"><div class="number">09</div><h3>Elif</h3><p>elif checks another condition when the previous condition was false.</p><pre><code>score = 85
+if score >= 90:
+    print("Excellent")
+elif score >= 75:
+    print("Passed")
+else:
+    print("Try again")</code></pre></article>
+
+<article class="lesson"><div class="number">10</div><h3>For Loops</h3><p>A for loop repeats code for each item in a sequence.</p><pre><code>for number in range(5):
+    print(number)</code></pre></article>
+
+<article class="lesson"><div class="number">11</div><h3>While Loops</h3><p>A while loop continues while its condition is true.</p><pre><code>count = 1
+while count <= 5:
+    print(count)
+    count += 1</code></pre></article>
+
+<article class="lesson"><div class="number">12</div><h3>Lists</h3><p>Lists store multiple values in one variable.</p><pre><code>fruits = ["Apple", "Mango", "Banana"]
+print(fruits[0])
+print(len(fruits))</code></pre></article>
+
+<article class="lesson"><div class="number">13</div><h3>Dictionaries</h3><p>Dictionaries store information using key-value pairs.</p><pre><code>student = {
+    "name": "Alex",
+    "age": 20
+}
+print(student["name"])</code></pre></article>
+
+<article class="lesson"><div class="number">14</div><h3>Functions</h3><p>Functions group reusable instructions into one block of code.</p><pre><code>def greet(name):
     print("Hello", name)
 
-greet("Alex")</code></pre>
-          </article>
-        </div>
-      </div>
-    </section>
+greet("Alex")</code></pre></article>
 
-    <section class="compiler-section" id="compiler">
-      <div class="container">
-        <div class="compiler-header">
-          <div>
-            <p class="eyebrow">TRY IT YOURSELF</p>
-            <h2>Python Online Compiler</h2>
-            <p>Change the code, click Run, and see the result instantly.</p>
-          </div>
-          <div class="badge">PYTHON 3</div>
-        </div>
+<article class="lesson"><div class="number">15</div><h3>Mini Project: Calculator</h3><p>Combine variables, input, operators, and output to build a simple calculator.</p><pre><code>a = float(input("First number: "))
+b = float(input("Second number: "))
+print("Sum:", a + b)
+print("Product:", a * b)</code></pre></article>
 
-        <div class="compiler-frame">
-          <iframe
-            id="pythonCompiler"
-            title="Online Python Compiler"
-            src="https://onecompiler.com/embed/python"
-            frameborder="0"
-            loading="lazy">
-          </iframe>
-        </div>
-        <p class="compiler-note">
-          The compiler is provided by OneCompiler and runs inside this webpage.
-        </p>
-      </div>
-    </section>
+</div>
+</div>
+</section>
 
-    <section class="challenge section" id="about">
-      <div class="container challenge-box">
-        <div>
-          <p class="eyebrow">MINI CHALLENGE</p>
-          <h2>Make your own greeting program</h2>
-          <p>Ask the user for their name and print a personalized greeting.</p>
-        </div>
-        <pre><code>name = input("What is your name? ")
-print("Hello,", name)</code></pre>
-      </div>
-    </section>
-  </main>
+<section class="compiler-section" id="compiler">
+<div class="container">
+<div class="compiler-header">
+<div><p class="eyebrow">TRY IT YOURSELF</p><h2>Run Python in your browser.</h2><p>Experiment with the examples or write your own code.</p></div>
+<div class="badge">PYTHON 3</div>
+</div>
+<div class="compiler-frame">
+<iframe title="Online Python Compiler" src="https://onecompiler.com/embed/python" frameborder="0" loading="lazy"></iframe>
+</div>
+<p class="compiler-note">Online compiler powered by OneCompiler.</p>
+</div>
+</section>
 
-  <footer>
-    <div class="container footer-content">
-      <p><strong>PY•BASICS</strong> — Simple Python Tutorial</p>
-      <p>Created for Web Development Activity</p>
-      <p>Mark Harvey Fausto</p>
-    </div>
-  </footer>
+<section class="section" id="challenge">
+<div class="container">
+<div class="challenge-box">
+<div><p class="eyebrow">FINAL CHALLENGE</p><h2>Build your own greeting program.</h2><p>Ask the user for their name and age, then display a personalized message. Try adding an if statement.</p></div>
+<pre><code>name = input("What is your name? ")
+age = int(input("How old are you? "))
 
-  <script src="script.js"></script>
+print("Hello,", name)
+print("You are", age, "years old.")</code></pre>
+</div>
+</div>
+</section>
+</main>
+
+<footer><div class="container footer-content"><p><strong>CODESTART</strong> — Python Beginner Tutorial</p><p>Created for Web Development Activity</p></div></footer>
+<script src="script.js"></script>
 </body>
 </html>
